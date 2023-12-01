@@ -18,7 +18,7 @@ const Navbar = (props: Props) => {
         />
         <span>Twittie</span>
       </div>
-      <div className="flex items-center gap-x-16">
+      <div className="hidden items-center gap-x-16 md:flex">
         <Link href={"/Features"}>Features</Link>
         <Link href={"/Pricing"}>Pricing</Link>
         <Link href={"/Faq"}>Faq</Link>
