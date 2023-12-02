@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={Dm_sans.className}>
-        <div className=" bg-main h-screen  w-full">{children}</div>
+        <div className=" bg-main h-full w-full">{children}</div>
       </body>
     </html>
   );

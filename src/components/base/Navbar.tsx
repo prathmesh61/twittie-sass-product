@@ -7,7 +7,7 @@ type Props = {};
 
 const Navbar = (props: Props) => {
   return (
-    <div className="text-inherit px-4 py-2 flex justify-between items-center">
+    <nav className="text-inherit px-4 py-2 flex justify-between items-center">
       <div className="flex items-center gap-x-2">
         <Image
           src={logo}
@@ -24,7 +24,7 @@ const Navbar = (props: Props) => {
         <Link href={"/Faq"}>Faq</Link>
       </div>
       <Button link={"/"}>Try for Free!</Button>
-    </div>
+    </nav>
   );
 };
 
