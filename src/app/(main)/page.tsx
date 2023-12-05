@@ -5,11 +5,11 @@ import Review from "@/components/common/Review";
 
 export default function Home() {
   return (
-    <div className="mx-auto max-w-screen-xl text-white">
+    <main className="mx-auto max-w-screen-xl text-white">
       <Navbar />
       <Hero />
       <Review direction="row" />
       <Features />
-    </div>
+    </main>
   );
 }

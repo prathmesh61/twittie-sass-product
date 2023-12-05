@@ -11,7 +11,8 @@ interface Props {
 
 const Features = () => {
   return (
-    <div className="px-8 py-20 flex flex-col gap-y-20 items-center justify-center w-full h-full ">
+    <section className="px-8 py-20 flex flex-col gap-y-20 items-center justify-center w-full h-full ">
+      {/* Feature box one */}
       <AboutTool>
         <SubHeading>⭐AI for automated content</SubHeading>
         <MainHeading>How we help you grow on Twitter</MainHeading>
@@ -30,6 +31,7 @@ const Features = () => {
           </div>
         </div>
       </AboutTool>
+      {/* Feature box Two */}
       <AboutTool>
         <SubHeading>🌟Get more sales, clients</SubHeading>
         <MainHeading>
@@ -52,7 +54,7 @@ const Features = () => {
           </div>
         </div>
       </AboutTool>
-    </div>
+    </section>
   );
 };
 

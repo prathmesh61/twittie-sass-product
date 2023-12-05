@@ -9,7 +9,7 @@ import Button from "../common/Button";
 
 const Hero = () => {
   return (
-    <main className="gradient">
+    <section className="gradient">
       <div className="flex flex-col items-center justify-center px-8 gap-y-8 py-20 ">
         <SubHeading>✨ Less effort. More results.</SubHeading>
         <MainHeading>
@@ -30,7 +30,7 @@ const Hero = () => {
           </Button>
         </div>
       </div>
-    </main>
+    </section>
   );
 };
 
