@@ -5,6 +5,7 @@ import MainHeading from "../common/MainHeading";
 import featureOne from "../../../public/feature-one.png";
 import featureTwo from "../../../public/feature-two.png";
 import Image from "next/image";
+import Spotlight from "./Spotlight";
 interface Props {
   direction?: "row" | "row-reverse";
 }
@@ -32,6 +33,8 @@ const Features = () => {
         </div>
       </AboutTool>
       {/* Feature box Two */}
+      <Spotlight />
+      {/* Feature box Three */}
       <AboutTool>
         <SubHeading>🌟Get more sales, clients</SubHeading>
         <MainHeading>
