@@ -13,7 +13,7 @@ const Button = ({ link, primary = true, children }: Props) => {
       href={`${link}`}
       className={`${
         primary ? "bg-brand text-white" : "bg-white text-black"
-      } w-fit h-fit px-6 py-1 font-light rounded-md`}
+      } w-fit h-fit px-6  font-light `}
     >
       {children}
     </Link>

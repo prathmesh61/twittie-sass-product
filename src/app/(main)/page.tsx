@@ -1,3 +1,4 @@
+import CallToAction from "@/components/base/CallToAction";
 import Features from "@/components/base/Features";
 import Hero from "@/components/base/Hero";
 import Navbar from "@/components/base/Navbar";
@@ -12,6 +13,7 @@ export default function Home() {
       <Review direction="row" />
       <Features />
       <Testimonial />
+      <CallToAction />
     </main>
   );
 }

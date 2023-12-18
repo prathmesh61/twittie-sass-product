@@ -9,7 +9,7 @@ type Props = {
 const Card = ({ Width, Height, children }: Props) => {
   return (
     <div
-      className={`${Width} ${Height} bg-[#25282C] text-white flex flex-col items-start p-4 gap-y-3  border-2 border-white/90 rounded-lg`}
+      className={`${Width} ${Height} bg-[#25282C] text-white flex flex-col items-center justify-center p-4 gap-y-3  border-2 border-white/90 rounded-lg`}
     >
       {children}
     </div>

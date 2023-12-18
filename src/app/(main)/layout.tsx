@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/base/Footer";
 
 const Dm_sans = DM_Sans({ subsets: ["latin-ext"] });
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={Dm_sans.className}>
         <div className=" bg-main h-full w-full">{children}</div>
+        <Footer />
       </body>
     </html>
   );
