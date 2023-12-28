@@ -22,9 +22,10 @@ test("Hero section", async ({ page }) => {
   await expect(
     page.getByText("Turn Twitter into a sales machine with our CRM")
   ).toBeVisible();
+  await expect(page.getByRole("img", { name: "HeroImg" })).toBeVisible();
   await page.click("text=Try for Free!");
   await page.click("text=Login");
-
+  // getByRole('img', { name: 'HeroImg' })
   // check review component
 
   await expect(
@@ -89,7 +90,7 @@ test("Footer", async ({ page }) => {
 
   // CTA
   await expect(
-    page.getByText("© 2023 Twittie Inc. All Rights Reserved.")
+    page.getByText("© 2023 Pratham Inc. All Rights Reserved.")
   ).toBeVisible();
   await expect(page.getByText("Terms of Use | Privacy Policy")).toBeVisible();
 });
