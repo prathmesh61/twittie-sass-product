@@ -14,6 +14,7 @@ const CallToAction = () => {
         </p>
         <div className="flex items-center justify-center w-full">
           <input
+            name="email"
             placeholder="Put Your Email..."
             className="bg-white px-2  rounded-s-md placeholder:text-black placeholder:text-xs"
           />

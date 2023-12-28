@@ -38,18 +38,15 @@ const Features = () => {
       <AboutTool>
         <SubHeading>🌟Get more sales, clients</SubHeading>
         <MainHeading>
-          Boost your tweets’ reach and results with automation
+          building relationships that lead to more opportunities
         </MainHeading>
         <div className="flex justify-between items-center flex-wrap  lg:flex-row-reverse gap-4 mt-5  ">
           <div className="flex flex-col  gap-y-3">
             <h3 className="font-medium text-xl">
-              Turn Twitter into a sales machine with our CRM
+              Give your brain endless inspiration
             </h3>
             <p className="font-light text-sm">
               Identify high-quality leads, get all their data, and start
-              <br />
-              building relationships that lead to more opportunities and
-              business results.
             </p>
           </div>
           <div className="relative max-w-[440px] min-w-[300px] h-full">

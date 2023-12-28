@@ -4,9 +4,9 @@ import React from "react";
 const MainHeading = ({ children }: IChildren) => {
   return (
     <div className="text-center">
-      <h1 className="font-extrabold text-2xl md:text-4xl text-white">
+      <span className="font-extrabold text-2xl md:text-4xl text-white">
         {children}
-      </h1>
+      </span>
     </div>
   );
 };
